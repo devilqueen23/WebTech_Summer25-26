@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Legends Registration</title>
+    <script src="../JS/script.js"></script>
+</head>
+
+<body>
+
+<h1>Mobile Legends: Bang Bang Player Registration</h1>
+
+<form onsubmit="return collect_data()">
+
+<fieldset>
+
+<legend>Player Information</legend>
+
+<table>
+
+<tr>
+<td>Player Name:</td>
+<td>
+<input type="text" id="playerName" placeholder="Enter your name">
+</td>
+</tr>
+
+<tr>
+<td>Age:</td>
+<td>
+<input type="number" id="age">
+</td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+
+</td>
+</tr>
+
+<tr>
+<td>Date of Birth:</td>
+<td>
+<input type="date" id="dob">
+</td>
+</tr>
+
+<tr>
+<td>Country:</td>
+<td>
+
+<select id="country">
+<option value="">Select Country</option>
+<option>Bangladesh</option>
+<option>India</option>
+<option>Malaysia</option>
+<option>Philippines</option>
+<option>Indonesia</option>
+</select>
+
+</td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td>
+<input type="email" id="email">
+</td>
+</tr>
+
+<tr>
+<td>MLBB Username:</td>
+<td>
+<input type="text" id="username">
+</td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td>
+<input type="password" id="password">
+</td>
+</tr>
+
+<tr>
+<td>Confirm Password:</td>
+<td>
+<input type="password" id="confirmPassword">
+</td>
+</tr>
+
+<tr>
+<td>Favorite Role:</td>
+<td>
+
+<input type="checkbox" id="tank">Tank
+<input type="checkbox" id="fighter">Fighter
+<input type="checkbox" id="mage">Mage
+<input type="checkbox" id="marksman">Marksman
+<input type="checkbox" id="assassin">Assassin
+<input type="checkbox" id="support">Support
+
+</td>
+</tr>
+
+<tr>
+<td>Favorite Hero:</td>
+<td>
+<input type="text" id="hero">
+</td>
+</tr>
+
+<tr>
+<td>Rank:</td>
+<td>
+
+<select id="rank">
+<option value="">Select Rank</option>
+<option>Warrior</option>
+<option>Elite</option>
+<option>Master</option>
+<option>Grandmaster</option>
+<option>Epic</option>
+<option>Legend</option>
+<option>Mythic</option>
+<option>Mythical Glory</option>
+</select>
+
+</td>
+</tr>
+
+<tr>
+<td>Player ID:</td>
+<td>
+<input type="number" id="playerid">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+
+<input type="checkbox" id="agree">
+I Agree to the Terms and Conditions
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+<input type="submit" value="Register">
+
+</td>
+
+<td>
+
+<input type="reset" value="Reset">
+
+</td>
+</tr>
+
+</table>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
