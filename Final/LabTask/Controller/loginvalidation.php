@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     $comment = trim($_POST["comment"] ?? "");
     $gender = trim($_POST["gender"] ?? "");
 
-    if(empty($name))
+    if(!empty($name))
     {
         echo "Name: " . $name;
         echo "<br>";
